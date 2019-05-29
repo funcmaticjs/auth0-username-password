@@ -1,7 +1,7 @@
 require('dotenv').config()
 const { auth } = require('../index.js')
 
-describe('Authentication', async () => {
+describe('Authentication', () => {
   let conf = null
   beforeAll(async () => {
     username = process.env.AUTH0_USERNAME
