@@ -1,0 +1,25 @@
+{
+  "name": "@funcmaticjs/auth0-username-password",
+  "version": "0.0.1",
+  "description": "Simple utility to authenticate and generate Auth0 tokens using a username and password",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel Jhin Yoo <danieljyoo@gmail.com> (https://github.com/danieljyoo)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/funcmaticjs/auth0-username-password.git"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "jest": "^21.2.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
