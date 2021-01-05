@@ -13,7 +13,7 @@
     "url": "https://github.com/funcmaticjs/auth0-username-password.git"
   },
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "dotenv": "^6.2.0",
